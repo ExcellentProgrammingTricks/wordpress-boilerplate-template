@@ -8,48 +8,51 @@ Within the download you'll find the following directories and files.
 
 ```
 wordpress-boilerplate/
-├── assets
-    ├── css
+├── assets/
+    ├── css/
         ├── mystyle.css
-    ├── font
+    ├── font/
         ├── Sample Font 
-    ├── images
+    ├── images/
         ├── Sample Images
         ├── Sample Favicon
-    ├── js
+    ├── js/
         ├── myScript.js //Sample Code
-    
-css/
-│   ├── mystyle.css
-│   ├── normalize.css
-├── img/
-    ├── ExcellentProgrammingTricks.png
 ├── inc/
     ├── enqueue.php
-├── js/
-    ├── myscript.js
 ├── scss/
     ├── base/
         ├── _vars.scss
     ├── mystyle.scss
+├── template-parts
+    ├── container.php //Sample tempate part
+├── templates/
+    ├── page-construction.php //Sample tempate
 ├── vender/
+    ├── animate/
+        ├── animate.css
     ├── bootstrap/
         ├── css/
             ├── bootstrap.min.css
-            ├── bootstrapuncompress.css (for review)
         ├── js/
             ├── bootstrap.min.js
             ├── popper.min.js
-    ├── font-awesome (5.0.6)/
-        ├── fontawesome-all.js
+    ├── font-awesome/
+        ├── all.js
     ├── jquery
         └── jquery.js
-├── functions.php
-├── header.php
+    ├── wow/
+        ├── wow.min.js
+    ├── normalize.css
+├── 404.php
 ├── footer.php
 ├── front-page.php
+├── functions.php
+├── header.php
+├── index.php 
+├── page.php
+├── singel.php 
 ├── screenshot.png
-├── index.html 
 └── style.css 
 ```
 ## Version
