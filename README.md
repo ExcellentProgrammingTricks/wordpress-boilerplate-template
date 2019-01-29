@@ -10,7 +10,7 @@ Within the download you'll find the following directories and files.
 wordpress-boilerplate/
 ├── assets/
     ├── css/
-        ├── mystyle.css
+        ├── mystyle.css //Sample Google Font
     ├── font/
         ├── Sample Font 
     ├── images/
@@ -29,21 +29,21 @@ wordpress-boilerplate/
 ├── templates/
     ├── page-construction.php //Sample tempate
 ├── vender/
-    ├── animate/
+    ├── animate/ v3.7.0
         ├── animate.css
-    ├── bootstrap/
+    ├── bootstrap/ v4.2.1
         ├── css/
             ├── bootstrap.min.css
         ├── js/
             ├── bootstrap.min.js
             ├── popper.min.js
-    ├── font-awesome/
+    ├── font-awesome/ v5.7.0 
         ├── all.js
-    ├── jquery
+    ├── jquery/ v3.3.1
         └── jquery.js
-    ├── wow/
+    ├── wow/ v1.3.0
         ├── wow.min.js
-    ├── normalize.css
+    ├── normalize.css v8.0.1
 ├── 404.php
 ├── footer.php
 ├── front-page.php
