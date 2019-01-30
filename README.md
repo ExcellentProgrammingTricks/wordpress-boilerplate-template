@@ -20,7 +20,7 @@ wordpress-boilerplate/
         ├── myScript.js //Sample Code
 ├── inc/
     ├── enqueue.php
-    ├── walker.php
+    ├── walker.php //WordPress nav walker class for Bootstrap 4 nav menus
 ├── scss/
     ├── base/
         ├── _vars.scss
