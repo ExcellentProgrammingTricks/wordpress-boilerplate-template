@@ -20,6 +20,7 @@ wordpress-boilerplate/
         ├── myScript.js //Sample Code
 ├── inc/
     ├── enqueue.php
+    ├── walker.php
 ├── scss/
     ├── base/
         ├── _vars.scss
