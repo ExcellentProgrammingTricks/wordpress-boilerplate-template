@@ -33,3 +33,24 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
    
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg fixed-top" id="guddiNavbarInternal">
+  <a class="navbar-brand" href="#">Brand Name</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#guddiNavbar" aria-controls="guddiNavbar" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="icon-bar">Menu</span>
+  </button>
+  <?php
+    wp_nav_menu([
+      'menu'            => 'primary',
+      'theme_location'  => 'primary',
+      'container'       => 'div',
+      'container_id'    => 'guddiNavbar',
+      'container_class' => 'collapse navbar-collapse',
+      'menu_id'         => false,
+      'menu_class'      => 'navbar-nav mr-auto',
+      'depth'           => 2,
+      'fallback_cb'     => 'guddiNavbar::fallback',
+      'walker'          => new Ept_Nav_Walker()
+    ]);
+  ?>
+</nav><!-- navbar -->
