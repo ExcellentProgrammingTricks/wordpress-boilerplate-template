@@ -7,6 +7,11 @@
 
 require get_template_directory() . '/inc/enqueue.php';
 require get_template_directory() . '/inc/walker.php';
+
+add_theme_support('custom-background');
+add_theme_support('custom-header');
+add_theme_support('post-thumbnails');
+
 /*
 	****************
 	*Activate Menus*
